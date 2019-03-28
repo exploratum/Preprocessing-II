@@ -1,1 +1,23 @@
 // Mixins in here
+
+.flex-layout(@justify, @align) {
+    display: flex;
+    justify-content: @justify;
+    align-items: @align;
+}
+
+.custom-buttom(@width, @background, @color:black) {
+
+    background-color: @background;
+    width: @width;
+    color:@color;
+
+    display: block;
+    text-align: center;
+    padding-top: 5px;
+    cursor: pointer;
+    height: 35px;
+    font-size: 2rem;
+    border-radius: 10px;
+  }
+  
